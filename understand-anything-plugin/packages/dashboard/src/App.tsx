@@ -200,7 +200,7 @@ function App() {
           <LayerLegend />
           <button
             onClick={() => setShowKeyboardHelp(true)}
-            className="text-text-muted hover:text-gold transition-colors"
+            className="text-text-muted hover:text-accent transition-colors"
             title="Keyboard shortcuts (Shift + ?)"
           >
             <svg

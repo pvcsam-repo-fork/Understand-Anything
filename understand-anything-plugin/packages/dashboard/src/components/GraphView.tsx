@@ -429,7 +429,7 @@ function GraphViewInner() {
       {layouting && (
         <div className="absolute inset-0 z-50 flex items-center justify-center bg-root/80 rounded-lg">
           <div className="text-center">
-            <div className="inline-block w-8 h-8 border-2 border-gold border-t-transparent rounded-full animate-spin mb-3" />
+            <div className="inline-block w-8 h-8 border-2 border-accent border-t-transparent rounded-full animate-spin mb-3" />
             <p className="text-text-secondary text-sm">
               Laying out {topoNodes.length.toLocaleString()} nodes...
             </p>
